@@ -11,7 +11,8 @@
     <script src="./src/myscript.js"></script>
     <script>
         window.setTimeout(function(){
-            changeText()
+            const container = document.querySelector('body')
+            changeText(container)
         },1000)
     </script>
 </body>
